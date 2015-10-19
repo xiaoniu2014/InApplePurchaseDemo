@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C557F71E1BD4BBB500A379E8 /* README in Resources */ = {isa = PBXBuildFile; fileRef = C557F71D1BD4BBB500A379E8 /* README */; settings = {ASSET_TAGS = (); }; };
 		C5AC50CA1BD0F3BF00439B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC50C91BD0F3BF00439B80 /* main.m */; };
 		C5AC50CD1BD0F3BF00439B80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC50CC1BD0F3BF00439B80 /* AppDelegate.m */; };
 		C5AC50D01BD0F3BF00439B80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC50CF1BD0F3BF00439B80 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C557F71D1BD4BBB500A379E8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		C5AC50C51BD0F3BF00439B80 /* InApplePurchaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InApplePurchaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AC50C91BD0F3BF00439B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5AC50CB1BD0F3BF00439B80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				C5AC50CC1BD0F3BF00439B80 /* AppDelegate.m */,
 				C5AC50CE1BD0F3BF00439B80 /* ViewController.h */,
 				C5AC50CF1BD0F3BF00439B80 /* ViewController.m */,
+				C557F71D1BD4BBB500A379E8 /* README */,
 				C5AC50D11BD0F3BF00439B80 /* Main.storyboard */,
 				C5AC50D41BD0F3BF00439B80 /* Assets.xcassets */,
 				C5AC50D61BD0F3BF00439B80 /* LaunchScreen.storyboard */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C557F71E1BD4BBB500A379E8 /* README in Resources */,
 				C5AC50D81BD0F3BF00439B80 /* LaunchScreen.storyboard in Resources */,
 				C5AC50D51BD0F3BF00439B80 /* Assets.xcassets in Resources */,
 				C5AC50D31BD0F3BF00439B80 /* Main.storyboard in Resources */,
@@ -411,10 +415,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = InApplePurchaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KingNet.InApplePurchaseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiying.oa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "af798099-5a22-4072-b50b-b0f00ef59573";
 			};
 			name = Debug;
 		};
@@ -422,10 +428,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = InApplePurchaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KingNet.InApplePurchaseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiying.oa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "af798099-5a22-4072-b50b-b0f00ef59573";
 			};
 			name = Release;
 		};
@@ -496,6 +504,7 @@
 				C5AC50F41BD0F3BF00439B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5AC50F51BD0F3BF00439B80 /* Build configuration list for PBXNativeTarget "InApplePurchaseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				C5AC50F71BD0F3BF00439B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5AC50F81BD0F3BF00439B80 /* Build configuration list for PBXNativeTarget "InApplePurchaseDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				C5AC50FA1BD0F3BF00439B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
